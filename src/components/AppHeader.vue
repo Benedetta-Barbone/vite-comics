@@ -3,7 +3,7 @@
         name: 'AppHeader',
         data (){
             return {
-                options : [
+                option : [
                     {
                         id: 1,
                         title: 'CHARACTERS',
@@ -60,7 +60,7 @@
     <div>
         <img src="/img/dc-logo.png" alt="">
         <ul>
-            <li  v-for="index in options" :key="index.id">
+            <li  v-for="index in option" :key="index.id">
                 {{ index.title }}
             </li>
         </ul>
@@ -80,7 +80,7 @@ header div{
     margin: 0 auto;
     width: 70%;
     font-size: 12px;
-    padding: 1rem;
+    padding: 1rem 0rem;
 
 
     img{
