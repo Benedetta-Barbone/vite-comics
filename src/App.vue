@@ -5,12 +5,12 @@ import AppFooter from './components/AppFooter.vue'
 
 export default {
   data() {
-  }
-}
+  },
 components:{
   AppHeader,
   AppMain,
   AppFooter
+}
 }
 </script>
 
