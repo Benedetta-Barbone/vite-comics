@@ -1,11 +1,19 @@
 <script> 
+import ListCards from './ListCards.vue';
+
+export default {
+    data() {
+    },
+    components:{
+        ListCards,
+    }
+}
+
 </script>
 
 <template> 
 <main>
-    <h1>
-        content 
-    </h1>
+   <ListCards />
 </main>
 </template>
 
@@ -13,5 +21,6 @@
 @use '../styles/partials/variables' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/general.scss' as *;
+
 
 </style>
